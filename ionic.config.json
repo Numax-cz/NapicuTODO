@@ -1,0 +1,7 @@
+{
+  "name": "NapicuTODO",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
