@@ -2,8 +2,15 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
+import {EPageThemeMode} from "../app/interface/pageColorMode";
+import {EnvironmentConfig} from "./config";
+
+export const environment: EnvironmentConfig = {
+  production: false,
+  print_info: true,
+  DEFAULT_USER_CONFIG: {
+    default_color_mode: EPageThemeMode.AUTOMATIC
+  }
 };
 
 /*
