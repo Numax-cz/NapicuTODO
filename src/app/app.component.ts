@@ -8,6 +8,7 @@ import {EPageThemeMode} from "./interface/pageColorMode";
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent implements OnInit {
+
   public themeToggle = false;
 
   constructor(public config: ApplicationConfiguration) {
