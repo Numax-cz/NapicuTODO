@@ -49,3 +49,13 @@
 ion-item {
   --transition: none;
 }
+
+.box-table  {
+  .min-box {
+    min-width: 45%;
+  }
+
+  .max-box {
+    min-width: 100%;
+  }
+}

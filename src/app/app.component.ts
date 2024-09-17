@@ -36,5 +36,4 @@ export class AppComponent implements OnInit {
   toggleDarkTheme(shouldAdd: any) {
     document.body.classList.toggle('dark', shouldAdd);
   }
-
 }

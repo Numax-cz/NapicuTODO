@@ -5,6 +5,6 @@ export const environment: EnvironmentConfig = {
   production: true,
   print_info: false,
   DEFAULT_USER_CONFIG: {
-    default_color_mode: EPageThemeMode.AUTOMATIC
+    default_color_mode: EPageThemeMode.DARK
   }
 };
